@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.5789473684210527" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="553.0" prefWidth="808.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="748.0" />
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="779.0">
+         <children>
+            <Button fx:id="cKey" alignment="BOTTOM_CENTER" layoutX="277.0" layoutY="29.0" mnemonicParsing="false" onAction="#cKeyPressed" prefHeight="151.0" prefWidth="37.0" style="-fx-background-color: ffffff; -fx-border-color: aaaaaa;" text="C" textAlignment="CENTER" />
+            <Button fx:id="eKey" alignment="BOTTOM_CENTER" layoutX="349.0" layoutY="29.0" mnemonicParsing="false" onAction="#eKeyPressed" prefHeight="151.0" prefWidth="37.0" style="-fx-background-color: ffffff; -fx-border-color: aaaaaa;" text="E" />
+            <Button fx:id="dKey" alignment="BOTTOM_CENTER" layoutX="313.0" layoutY="29.0" mnemonicParsing="false" onAction="#dKeyPressed" prefHeight="151.0" prefWidth="37.0" style="-fx-background-color: ffffff; -fx-border-color: aaaaaa;" text="D" />
+            <Button fx:id="cSharpKey" alignment="BOTTOM_CENTER" layoutX="295.0" layoutY="29.0" mnemonicParsing="false" onAction="#cSharpKeyPressed" prefHeight="84.0" prefWidth="24.0" style="-fx-background-color: #000000;" text="C#" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Button fx:id="dSharpKey" alignment="BOTTOM_CENTER" layoutX="343.0" layoutY="29.0" mnemonicParsing="false" onAction="#dSharpKeyPressed" prefHeight="84.0" prefWidth="24.0" style="-fx-background-color: #000000;" text="D#" textFill="WHITE">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Button fx:id="fKey" alignment="BOTTOM_CENTER" layoutX="385.0" layoutY="29.0" mnemonicParsing="false" onAction="#fKeyPressed" prefHeight="151.0" prefWidth="37.0" style="-fx-background-color: ffffff; -fx-border-color: aaaaaa;" text="F" />
+            <Button fx:id="gKey" alignment="BOTTOM_CENTER" layoutX="421.0" layoutY="29.0" mnemonicParsing="false" onAction="#gKeyPressed" prefHeight="151.0" prefWidth="37.0" style="-fx-background-color: ffffff; -fx-border-color: aaaaaa;" text="G" />
+            <Button fx:id="aKey" alignment="BOTTOM_CENTER" layoutX="457.0" layoutY="29.0" mnemonicParsing="false" onAction="#aKeyPressed" prefHeight="151.0" prefWidth="37.0" style="-fx-background-color: ffffff; -fx-border-color: aaaaaa;" text="A" />
+            <Button fx:id="bKey" alignment="BOTTOM_CENTER" layoutX="493.0" layoutY="29.0" mnemonicParsing="false" onAction="#bKeyPressed" prefHeight="151.0" prefWidth="37.0" style="-fx-background-color: ffffff; -fx-border-color: aaaaaa;" text="B" />
+            <Button fx:id="fSharpKey" alignment="BOTTOM_CENTER" layoutX="403.0" layoutY="29.0" mnemonicParsing="false" onAction="#fSharpKeyPressed" prefHeight="84.0" prefWidth="24.0" style="-fx-background-color: #000000;" text="F#" textFill="WHITE">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Button fx:id="gSharpKey" alignment="BOTTOM_CENTER" layoutX="446.0" layoutY="29.0" mnemonicParsing="false" onAction="#gSharpKeyPressed" prefHeight="84.0" prefWidth="24.0" style="-fx-background-color: #000000;" text="G#" textFill="WHITE">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+            <Button fx:id="aSharpKey" alignment="BOTTOM_CENTER" layoutX="490.0" layoutY="29.0" mnemonicParsing="false" onAction="#aSharpKeyPressed" prefHeight="84.0" prefWidth="24.0" style="-fx-background-color: #000000;" text="A#" textFill="WHITE">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+  </items>
+</SplitPane>
